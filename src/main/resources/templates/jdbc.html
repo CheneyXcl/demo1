@@ -1,0 +1,25 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Title</title>
+</head>
+<body>
+111<br/>
+<table>
+
+    <tr th:each="user,iterStat : ${users}">
+
+        <td th:text="${user.id}">1</td>
+        <td th:text="${user.userName}">1</td>
+        <td th:text="${user.email}">1</td>
+        <td th:text="${user.passWord}">1</td>
+
+
+    </tr>
+</table>
+
+<div th:include="footer::copy"></div>
+</body>
+
+</html>

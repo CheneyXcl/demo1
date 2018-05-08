@@ -1,0 +1,20 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.w3.org/2005/Atom">
+
+<head>
+    <!--/*  Each token will be replaced by their respective titles in the resulting page. */-->
+    <title layout:title-pattern="$DECORATOR_TITLE - $CONTENT_TITLE">
+        Task List</title>
+</head>
+<body>
+此处js
+<div></div>
+<div class="container">
+    <div layout:fragment="content">
+
+    </div>
+    <!--<div th:replace="fragments/footer :: footer">&copy; 2014 The Static Templates</div>-->
+</div>
+</body>
+</html>
