@@ -1,4 +1,4 @@
-package com.example.demo1.entity;
+package com.kelon.demo1.Entity;
 
 import javax.persistence.*;
 
@@ -8,7 +8,6 @@ import javax.persistence.*;
 public class User {
     public User()
     {}
-
     public User(String userName, String email, String nickName, String passWord, String regTime) {
         this.userName = userName;
         this.passWord = passWord;

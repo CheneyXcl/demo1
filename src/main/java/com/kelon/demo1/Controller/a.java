@@ -1,10 +1,13 @@
-package com.example.demo1;
-import com.example.demo1.Repository.UserDao1;
-import com.example.demo1.Repository.iUserDao;
+package com.kelon.demo1.Controller;
+import com.kelon.demo1.Repository.UserDao1;
+import com.kelon.demo1.Repository.iUserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+
+import javax.xml.ws.ServiceMode;
+
 
 @Controller
 public class a {

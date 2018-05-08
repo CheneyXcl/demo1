@@ -1,6 +1,6 @@
-package com.example.demo1;
+package com.kelon.demo1;
 
-import com.example.demo1.Repository.iUserDao;
+import com.kelon.demo1.Repository.iUserDao;
 import org.junit.Assert;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

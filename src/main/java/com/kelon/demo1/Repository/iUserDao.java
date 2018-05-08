@@ -1,6 +1,6 @@
-package com.example.demo1.Repository;
+package com.kelon.demo1.Repository;
 
-import com.example.demo1.entity.User;
+import com.kelon.demo1.Entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface iUserDao extends JpaRepository<User, Long> {

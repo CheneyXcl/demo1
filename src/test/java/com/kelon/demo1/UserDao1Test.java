@@ -1,4 +1,4 @@
-package com.example.demo1;
+package com.kelon.demo1;
 
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

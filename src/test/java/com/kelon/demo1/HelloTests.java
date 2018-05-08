@@ -1,7 +1,7 @@
-package com.example.demo1;
+package com.kelon.demo1;
 
-import com.example.demo1.Repository.UserDao1;
-import com.example.demo1.entity.User;
+import com.kelon.demo1.Repository.UserDao1;
+import com.kelon.demo1.Entity.User;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
