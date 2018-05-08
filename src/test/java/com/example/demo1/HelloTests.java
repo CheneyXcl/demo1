@@ -1,6 +1,6 @@
 package com.example.demo1;
 
-import com.example.demo1.dao.UserDao1;
+import com.example.demo1.Repository.UserDao1;
 import com.example.demo1.entity.User;
 import org.junit.Assert;
 import org.junit.Before;

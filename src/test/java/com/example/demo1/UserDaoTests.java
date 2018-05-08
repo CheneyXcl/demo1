@@ -1,7 +1,6 @@
 package com.example.demo1;
 
-import com.example.demo1.dao.iUserDao;
-import com.example.demo1.entity.User;
+import com.example.demo1.Repository.iUserDao;
 import org.junit.Assert;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +11,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.text.DateFormat;
 import java.util.Date;
-import java.util.List;
 
 
 @RunWith(SpringRunner.class)

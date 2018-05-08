@@ -1,6 +1,6 @@
 package com.example.demo1;
-import com.example.demo1.dao.UserDao1;
-import com.example.demo1.dao.iUserDao;
+import com.example.demo1.Repository.UserDao1;
+import com.example.demo1.Repository.iUserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +21,7 @@ public class a {
         ModelAndView mav = new ModelAndView("jdbc");
         mav.addObject("users", userDao.findAll());
         return mav;
+
     }
 
     @RequestMapping("/jdbc1")
