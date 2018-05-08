@@ -15,7 +15,7 @@ import java.util.Date;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class UserDaoTests {
+public class iUserDaoTests {
 
     @Autowired
     private iUserDao userRepository;

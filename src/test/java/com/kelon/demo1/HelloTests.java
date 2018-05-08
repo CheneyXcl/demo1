@@ -1,6 +1,6 @@
 package com.kelon.demo1;
 
-import com.kelon.demo1.Repository.UserDao1;
+import com.kelon.demo1.Repository.UserDao;
 import com.kelon.demo1.Entity.User;
 import org.junit.Assert;
 import org.junit.Before;
@@ -52,7 +52,7 @@ public class HelloTests {
 
 
     @Autowired
-    private UserDao1 userDao1;
+    private UserDao userDao1;
 
     @Test
     public void 测试UserDao1()
